@@ -9,14 +9,8 @@ RUN apt-get update -y && \
 
 FROM openjdk:8u222-slim-buster
 
-WORKDIR /src
-
 COPY --from=base /icode /usr/bin
     
-RUN groupadd -r icode && \
-    useradd --no-log-init -r -b /home -m -g icode icode 
-#    chown -R icode:icode /src && \
-#    chmod -R +w /src
-
+WORKDIR /src
 LABEL maintainer="begarco"
-ENTRYPOINT ["sh", "-c"]
+ENTRYPOINT ["icode", "-"]

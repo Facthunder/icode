@@ -7,7 +7,7 @@ This project aims to provide a simple Docker image to encapsulate and run an [i-
 #### Run core checks
 Assuming current directory contains the source code to analyze, simply run the following command:
 ```Dockerfile
-docker run --rm -v ${PWD}:/src facthunder/i-code:latest "icode -f xml -o report.xml **/*"
+docker run --rm -v ${PWD}:/src facthunder/icode:latest -f xml -o report.xml **/* *
 ```
 
 ### Versions matrix
