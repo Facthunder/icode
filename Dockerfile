@@ -1,10 +1,10 @@
 FROM openjdk:8u222-slim-buster AS base
 
-ADD https://github.com/lequal/i-CodeCNES/releases/download/v3.1.0/i-CodeCNES-3.1.0-CLI-linux.gtk.x86_64.zip /
+ADD https://github.com/lequal/i-CodeCNES/releases/download/v4.0.0/icode-4.0.0.zip /
 
 RUN apt-get update -y && \
     apt-get install -y unzip && \
-    unzip /i-CodeCNES-3.1.0-CLI-linux.gtk.x86_64.zip && \
+    unzip /icode-4.0.0.zip && \
     chmod +x /icode/icode
 
 FROM openjdk:8u222-slim-buster
