@@ -15,7 +15,8 @@ Here is the versions matrix of the image:
 
 |                          TAG                           |                       I-CODE VERSION                       |                        BASE IMAGE                      |
 |:------------------------------------------------------:|:------------------------------------------------------------:|:------------------------------------------------------:|
-| [latest](https://hub.docker.com/r/facthunder/i-code)   | [4.0.0](https://github.com/lequal/i-CodeCNES/releases/tag/v4.0.0) | [openjdk:8u222-slim-buster](https://hub.docker.com/_/openjdk) |
+| [latest](https://hub.docker.com/r/facthunder/i-code)   | [4.1.0](https://github.com/lequal/i-CodeCNES/releases/tag/v4.0.0) | [openjdk:8u222-slim-buster](https://hub.docker.com/_/openjdk) |
+|  [4.1.0](https://hub.docker.com/r/facthunder/i-code)   | [4.1.0](https://github.com/lequal/i-CodeCNES/releases/tag/v4.1.0) | [openjdk:8u222-slim-buster](https://hub.docker.com/_/openjdk) |
 |  [4.0.0](https://hub.docker.com/r/facthunder/i-code)   | [4.0.0](https://github.com/lequal/i-CodeCNES/releases/tag/v4.0.0) | [openjdk:8u222-slim-buster](https://hub.docker.com/_/openjdk) |
 |  [3.1.0](https://hub.docker.com/r/facthunder/i-code)   | [3.1.0](https://github.com/lequal/i-CodeCNES/releases/tag/v3.1.0) | [openjdk:8u222-slim-buster](https://hub.docker.com/_/openjdk) |
 
