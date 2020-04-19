@@ -4,7 +4,7 @@ ADD https://github.com/lequal/i-CodeCNES/releases/download/v4.1.0/icode-4.1.0.zi
 
 RUN apt-get update -y && \
     apt-get install -y unzip && \
-    unzip /icode-4.0.0.zip && \
+    unzip /icode-4.1.0.zip && \
     chmod +x /icode/icode
 
 FROM openjdk:8u222-slim-buster
